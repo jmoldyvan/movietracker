@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = testAppForNet
 build_property.RootNamespace = testAppForNet
-build_property.ProjectDir = C:\Users\John\RazorPageMovie\
+build_property.ProjectDir = C:\Users\Commander Jordan\c#basics\movietracker\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\John\RazorPageMovie
+build_property.MSBuildProjectDirectory = C:\Users\Commander Jordan\c#basics\movietracker
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/John/RazorPageMovie/Pages/Error.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Index.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Movies/Create.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Movies/Delete.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Movies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Movies/Details.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Movies/Edit.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Movies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Movies/Index.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Movies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Privacy.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/_ViewImports.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/_ViewStart.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/John/RazorPageMovie/Pages/Shared/_Layout.cshtml]
+[C:/Users/Commander Jordan/c\#basics/movietracker/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ink0t3jqsg

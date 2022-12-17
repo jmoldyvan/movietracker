@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RazorPagesMovie.Data;
 using RazorPagesMovie.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace testAppForNet.Pages.Movies
 {
@@ -21,12 +22,39 @@ namespace testAppForNet.Pages.Movies
 
         public IList<Movie> Movie { get;set; } = default!;
 
-        public async Task OnGetAsync()
-        {
-            if (_context.Movie != null)
+        public async Task OnGetAsync(string movieGenre,string searchString)
             {
-                Movie = await _context.Movie.ToListAsync();
+                IQueryable<string> genreQuery = from m in _context.Movie
+                                        orderby m.Genre
+                                        select m.Genre;
+
+                var movies = from m in _context.Movie
+                            select m;
+
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                    movies = movies.Where(s => s.Title.Contains(searchString));
+                }
+
+                if (!String.IsNullOrEmpty(movieGenre))
+                {
+                    movies = movies.Where(x => x.Genre == movieGenre);
+                }
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
+                Movie = await movies.ToListAsync();
             }
-        }
+        public class IndexModel : PageModel
+            {
+                private readonly RazorPagesMovie.Data.RazorPagesMovieContext _context;
+
+                public IndexModel(RazorPagesMovie.Data.RazorPagesMovieContext context)
+                {
+                    _context = context;
+                }
+
+                public IList<Movie> Movie;
+                public SelectList Genres;
+                public string MovieGenre { get; set; }
+            }
     }
 }

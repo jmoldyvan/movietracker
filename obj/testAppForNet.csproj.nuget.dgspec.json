@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John\\RazorPageMovie\\testAppForNet.csproj": {}
+    "C:\\Users\\Commander Jordan\\c#basics\\movietracker\\testAppForNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John\\RazorPageMovie\\testAppForNet.csproj": {
+    "C:\\Users\\Commander Jordan\\c#basics\\movietracker\\testAppForNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\RazorPageMovie\\testAppForNet.csproj",
+        "projectUniqueName": "C:\\Users\\Commander Jordan\\c#basics\\movietracker\\testAppForNet.csproj",
         "projectName": "testAppForNet",
-        "projectPath": "C:\\Users\\John\\RazorPageMovie\\testAppForNet.csproj",
-        "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\RazorPageMovie\\obj\\",
+        "projectPath": "C:\\Users\\Commander Jordan\\c#basics\\movietracker\\testAppForNet.csproj",
+        "packagesPath": "C:\\Users\\Commander Jordan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Commander Jordan\\c#basics\\movietracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Commander Jordan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
